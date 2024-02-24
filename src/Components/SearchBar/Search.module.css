@@ -1,0 +1,22 @@
+.searchbar{
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    border-style: none;
+    width: 35vw;
+    padding: 11px 20px;
+}
+
+.searchbutton{
+    height:100%;
+    border-radius: 0px 8px 8px 0px;
+    padding: 7px 6px 7px 5px;
+    background-color: white;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+}
