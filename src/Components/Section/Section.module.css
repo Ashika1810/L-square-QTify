@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.toggleText{
+    color:  #34C94B;
+    font-family: 'Poppins'; 
+}
+
+.filterWrapper{
+    color: white
+}
+
+.wrapper{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
