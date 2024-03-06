@@ -6,6 +6,8 @@
   justify-content:center;
 }
 
+
+
 .card{
     position: relative;
     flex-direction: column;
@@ -13,12 +15,24 @@
     width: 160px;
     border-radius: 10px;
     overflow: hidden;
-    object-fit: cover;
     cursor: pointer;
 }
 
+.image{
+    position: absolute;
+    bottom: 42px;
+    overflow: hidden;
+    object-fit: cover;
+    height: 120%;
+    display: flex;
+ 
+}
+
+
+
 .banner{
     position: absolute;
+    background-color: white;
     bottom: 0px;
     left:0px;
     width: 100%;

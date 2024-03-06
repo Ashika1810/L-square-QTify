@@ -12,7 +12,9 @@ function Card({data, type}){
                 <Link to= {`album${slug}`}>
                 <div className={styles.wrapper}>
                     <div className={styles.card}>
-                        <img src={image} alt="album" loading="lazy" style={{objectFit: "contain"}}/>
+                        <div className={styles.image}>
+                        <img src={image} alt="album" loading="lazy" />
+                        </div>
                         <div className={styles.banner}>
                             <Chip label={`${follows} follows`}
                             size="small"
@@ -32,7 +34,9 @@ function Card({data, type}){
             return (
                 <div className={styles.wrapper}>
                     <div className={styles.card}>
+                        <div className={styles.image}>
                     <img src={image} alt="song" loading="lazy"/>
+                    </div>
                     <div className={styles.banner}>
                         <div className={styles.pill}>
                             <p>{likes} Likes</p>
