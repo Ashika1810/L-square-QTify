@@ -1,22 +1,28 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     color: white;
 }
 
 .toggleText{
     color:  #34C94B;
     font-family: 'Poppins'; 
+    cursor: pointer;
 }
 
 .filterWrapper{
-    color: white
+    color: white;
+    margin-top: 15px;
 }
 
 .wrapper{
     display: flex;
-    justify-content: start;
     flex-wrap: wrap;
     gap: 50px;
+}
+
+.cardsWrapper{
+    margin-top: 18px;
 }
 

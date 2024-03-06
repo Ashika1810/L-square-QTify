@@ -8,11 +8,11 @@ function Card({data, type}){
         if(type==="album"){
             const {image, follows, title, slug, songs}= data;
             return (
-                <Tooltip title={`${songs.length} songs`} placement="top" arrow>
+                <Tooltip title={`${songs.length} songs`} placement="top-end" arrow>
                 <Link to= {`album${slug}`}>
                 <div className={styles.wrapper}>
                     <div className={styles.card}>
-                        <img src={image} alt="album" loading="lazy" />
+                        <img src={image} alt="album" loading="lazy" style={{objectFit: "contain"}}/>
                         <div className={styles.banner}>
                             <Chip label={`${follows} follows`}
                             size="small"

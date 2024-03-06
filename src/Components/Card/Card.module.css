@@ -43,7 +43,7 @@
 }
 
 .titlewrapper{
+    text-decoration: none;
     font-family: 'Poppins';
     color: white;
-    text-decoration: none;
 }

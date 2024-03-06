@@ -25,7 +25,7 @@ function Carousel({data, renderComponent}){
              styles={{padding: "0px 2px"}}
              initialSlide={0}
              modules={[Navigation]}
-             slidesPerView={"auto"}
+             slidesPerView={7}
              spaceBetween={40}
              allowTouchMove
              >
